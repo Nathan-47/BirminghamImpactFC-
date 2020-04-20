@@ -12,7 +12,6 @@ font-family: 'Quantico', sans-serif;
 color: black;
 overflow-x: hidden;
 width: 100%;
-margin: 0 auto;
 }
 
 .row img{
@@ -4162,7 +4161,7 @@ width: 100%;
 
 /*NAVBAR*/   
 .nav-links{
-position: absolute;
+position:fixed;
 z-index: 100;
 height: 100%;
 right: 0px;
