@@ -1259,6 +1259,7 @@ margin: 20px 0px auto;
 
 
 
+
 @media screen and (max-width:1024px){
 body{
 overflow-x: hidden;
@@ -1266,7 +1267,7 @@ width: 100%;
 }
     
 .nav-links{
-position: absolute;
+position: fixed;
 z-index: 1;
 right: 0px;
 height: 100%;
@@ -4610,10 +4611,10 @@ width: 100%;
 /*NAVBAR*/   
 .nav-links{
 position: fixed;
-z-index: 100;
+z-index: 1;
 height: 100%;
 right: 0px;
-top: 19vh;
+top: 1vh;
 background-color:black;
 display: flex;
 flex-direction: column;
