@@ -1262,7 +1262,6 @@ margin: 20px 0px auto;
 
 @media screen and (max-width:1024px){
 body{
-/*hides the menu list off page*/
 overflow-x: hidden;
 width: 100%;
 }
@@ -1271,8 +1270,8 @@ width: 100%;
 position: absolute;
 z-index: 1;
 right: 0px;
-height: 101vh;
-top: 0vh;
+height: 100%;
+top: 15vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -1288,7 +1287,6 @@ opacity: 100%;
 
 .burger{
 display: block;
-z-index: 1;
 }
 
 .nav-links a{
@@ -1374,7 +1372,7 @@ background-color:black;
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 50%;
+width: 100%;
 transform: translateX(100%);
 transition: transform 0.5s ease-in;
 }
@@ -1595,16 +1593,15 @@ width: 100%;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
 .nav-links{
 position: absolute;
 z-index: 1;
-height: 100%;
+height: 150vh;
 right: 0px;
-top: 0vh;
+top: 31vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -1630,10 +1627,6 @@ font-size: 14px;
 .nav-links a:hover{
 color: black;
 background-color: white;
-}
-	
-.burger{
-z-index: 1;
 }
 /*NAVBAR*/    	
 
@@ -1874,7 +1867,6 @@ margin: 20px 40px auto;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
@@ -1883,7 +1875,7 @@ position: absolute;
 z-index: 1;
 height: 100%;
 right: 0px;
-top: 0vh;
+top: 35vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -1909,10 +1901,6 @@ font-size: 14px;
 .nav-links a:hover{
 color: black;
 background-color: white;
-}
-	
-.burger{
-z-index: 1;
 }
 /*NAVBAR*/    	
 
@@ -2145,8 +2133,7 @@ margin: 20px 40px auto;
 
 @media screen and (max-width:800px){
 body{
-/*hides the menu list off page*/
-overflow-x: hidden;
+overflow-x:hidden;
 width: 100%;
 }
     
@@ -2154,7 +2141,7 @@ width: 100%;
 position: absolute;
 z-index: 100;
 right: 0px;
-height: 90vh;
+height: 100%;
 top: 10vh;
 background-color:black;
 display: flex;
@@ -2458,10 +2445,10 @@ width: 100%;
 	
 .nav-links{
 position: absolute;
-z-index: 1;
+z-index: 100;
 right: 0px;
-height: 100vh;
-top: 0vh;
+height: 100%;
+top: 13vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -2477,7 +2464,6 @@ opacity: 100%;
 
 .burger{
 display: block;
-z-index: 1;
 }
 
 .nav-links a{
@@ -2547,16 +2533,15 @@ margin: 20px 40px auto;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
 .nav-links{
 position: absolute;
 z-index: 1;
-height: 100%;
+height: 150vh;
 right: 0px;
-top: 0vh;
+top: 31vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -2782,16 +2767,15 @@ width: 100%;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
 .nav-links{
 position: absolute;
 z-index: 1;
-height: 100%;
+height: 150vh;
 right: 0px;
-top: 0vh;
+top: 32vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -2817,10 +2801,6 @@ font-size: 14px;
 .nav-links a:hover{
 color: black;
 background-color: white;
-}
-	
-.burger{
-z-index: 1;
 }
 /*NAVBAR*/    	
 
@@ -3006,16 +2986,15 @@ width: 100%;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
 .nav-links{
 position: absolute;
 z-index: 1;
-height: 100%;
+height: 150vh;
 right: 0px;
-top: 0vh;
+top: 35vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -3041,10 +3020,6 @@ font-size: 14px;
 .nav-links a:hover{
 color: black;
 background-color: white;
-}
-	
-.burger{
-z-index: 1;
 }
 /*NAVBAR*/    	
 
@@ -3251,16 +3226,15 @@ width: 100%;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
 .nav-links{
 position: absolute;
 z-index: 1;
-height: 100%;
+height: 150vh;
 right: 0px;
-top: 0vh;
+top: 37vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -3287,10 +3261,7 @@ font-size: 14px;
 color: black;
 background-color: white;
 }
-	
-.burger{
-z-index: 1;
-}
+
 /*NAVBAR*/    	
 
 	
@@ -3487,16 +3458,15 @@ width: 100%;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
 .nav-links{
 position: absolute;
 z-index: 1;
-height: 100%;
+height: 150vh;
 right: 0px;
-top: 0vh;
+top: 41vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -3512,7 +3482,6 @@ opacity: 100%;
 
 .burger{
 display: block;
-z-index: 1;
 }
 
 .nav-links a{
@@ -3523,10 +3492,6 @@ font-size: 14px;
 .nav-links a:hover{
 color: black;
 background-color: white;
-}
-	
-.burger{
-z-index: 1;
 }
 /*NAVBAR*/    	
 
@@ -3745,16 +3710,15 @@ width: 100%;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
 .nav-links{
 position: absolute;
 z-index: 1;
-height: 100vh;
+height: 150vh;
 right: 0px;
-top: 0vh;
+top: 42vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -3770,7 +3734,6 @@ opacity: 100%;
 
 .burger{
 display: block;
-z-index: 1;
 }
 
 .nav-links a{
@@ -3985,7 +3948,7 @@ background-color:black;
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 50%;
+width: 100%;
 transform: translateX(100%);
 transition: transform 0.5s ease-in;
 }
@@ -4208,7 +4171,7 @@ background-color:black;
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 50%;
+width: 100%;
 transform: translateX(100%);
 transition: transform 0.5s ease-in;
 }
@@ -4219,7 +4182,6 @@ opacity: 100%;
 
 .burger{
 display: block;
-z-index: 1;
 }
 
 .nav-links a{
@@ -4426,7 +4388,6 @@ width: 100%;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
@@ -4435,7 +4396,7 @@ position: absolute;
 z-index: 1;
 height: 100%;
 right: 0px;
-top: 0vh;
+top: 19vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -4451,7 +4412,6 @@ opacity: 100%;
 
 .burger{
 display: block;
-z-index: 1;
 }
 
 .nav-links a{
@@ -4716,7 +4676,6 @@ margin-bottom: 20px;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
 
 /*NAVBAR*/   
@@ -4725,7 +4684,7 @@ position: absolute;
 z-index: 1;
 height: 100%;
 right: 0px;
-top: 0vh;
+top: 21vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -4741,7 +4700,6 @@ opacity: 100%;
 
 .burger{
 display: block;
-z-index: 1;
 }
 
 .nav-links a{
@@ -4908,7 +4866,6 @@ margin: 20px auto;
 body{
 overflow-x: hidden;
 width: 100%;
-margin: auto;
 }
     
 .nav-links{
@@ -4916,7 +4873,7 @@ position: absolute;
 z-index: 1;
 right: 0px;
 height: 100%;
-top: 0vh;
+top: 23vh;
 background-color:black;
 display: flex;
 flex-direction: column;
@@ -4932,7 +4889,6 @@ opacity: 100%;
  
 .burger{
 display: block;
-z-index: 1;
 }
 
 .nav-links a{
