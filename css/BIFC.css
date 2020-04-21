@@ -1,0 +1,5298 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+--mainColor: black;
+white-space: inherit;
+}
+
+body{
+background-color: white;
+font-family: 'Quantico', sans-serif;
+color: black;
+overflow-x: hidden;
+width: 100%;
+}
+
+.row img{
+height: 100%;
+margin: 10px auto;
+}
+
+
+/*FOOTER*/
+.footer{
+width: 100%;
+margin: auto;
+padding: 80px 0px;
+background-color: black;
+}
+
+#footer-bk{
+background-color: black;
+color: white;
+height: auto;
+padding: 40px;
+}
+
+.footer-social-icons{
+width: 100%;
+height: auto;
+margin: auto;
+border: 2px solid black;
+}
+
+.footer-social-icons ul{
+margin: 50px;
+padding: 0px;
+text-align: center;
+}
+
+.footer-social-icons ul li{
+display: inline-block;
+width: 50px;
+height: 50px;
+margin: 0px 10px;
+border-radius: 100%;
+background:white;
+border: 2px solid white;
+}
+
+.footer-social-icons ul li:hover{
+background-color: black;
+}
+
+.footer-social-icons ul li a{
+color: black;
+font-size: 25px;
+}
+
+.footer-social-icons ul li a:hover{
+color:white;
+}
+
+.footer-social-icons ul li a i{
+line-height: 50px;
+}
+
+#footer-logo{
+width: 100%;
+}
+
+#footer-menu-two{
+text-align: center;
+margin: 5px auto;
+height: 100%;
+width: 100%;
+}
+
+#footer-logo h1{
+margin: 60px auto;
+text-align: center;
+font-size: 17px;
+}
+
+#footer-logo a{
+color:white;
+padding: 5px;
+}
+/*END OF FOOTER*/
+
+
+/*NAVBAR*/
+.logo{
+margin: 10px;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+min-height: 10vh;
+background-color:black;
+color: white;
+z-index: 1;
+}
+
+.nav-links{
+display: flex;
+justify-content: space-around;
+width: 35%;
+padding-top: 57px;
+}
+
+.nav-links li{
+list-style: none;
+}
+
+.nav-links a{
+background-position: 0 100%;
+background-repeat: repeat-x;
+background-size: 100px 2px;
+color: white;
+text-decoration: none;
+transition: background-size .50s;
+font-weight: 500;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+padding: 20px;
+background-color: white;
+color: black;
+font-weight: bold;
+}
+
+.burger{
+display: none;
+cursor: pointer;
+margin-top: 62px;
+}
+
+.burger div{
+width: 30px;
+height: 4px;
+background-color: white;
+margin: 4px;
+transition: all 0.3s ease;
+}
+
+.sticky{
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.sticky + content{
+padding-top: 60px;
+}
+/*NAVBAR END*/
+
+
+/*SLOGAN*/
+#slogan{
+margin: 30px auto;
+padding: 40px auto;
+margin-top: 200px;
+}
+
+#slogan h1{
+margin: 10px auto;
+text-align: center;
+align-content: center;
+}
+/*SLOGAN*/
+
+
+/*HOMEPAGE*/
+/*REGISTER BUTTON*/
+.btn-register{
+display: block;
+width: 180px;
+height: 60px;
+position: relative;
+border: 4px solid black;
+margin: 50px auto;
+border-radius: 5px;
+background-color: white;
+}
+
+.btn-register .content{
+display: block;
+position: absolute;
+bottom: 0px;
+width: 100%;
+height: 100%; 
+line-height: 50px;
+background-color: white;
+text-align: center;
+color: black;
+border-radius: 0px;
+font-size: 20px;
+font-weight: 900;
+cursor: pointer;
+}
+
+.btn-register:hover .content{
+background-color:black;
+color: white; 
+}
+/*END OF REGISTER BUTTON*/
+
+
+
+/*HOME-LOGO*/
+#logo-home{
+width: 100%; 
+margin: 30px auto;
+text-align: center;
+}
+/*HOME-LOGO*/
+
+
+/*GRID IMAGES*/
+#grid{
+width: 60%;
+padding: 10px;
+}
+
+#grid .row{
+margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+#grid .row,
+#grid.row > .column {
+padding: 4px;
+}
+
+/* Create four equal columns that floats next to each other */
+#grid .column {
+float: left;
+width:25%;
+}
+
+/* Clear floats after rows */ 
+#grid .row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Content */
+#grid .content {
+background-color: white;
+padding: 10px;
+text-align: center;
+box-shadow: 0 10px 10px lightgrey;
+}
+
+.column {
+float: center;
+width: 10.66%;
+margin: 6px auto;
+}
+/*GRID IMAGES*/
+
+
+/*Sponsors Logo*/
+#homesponsors .row{
+height: 100%;
+width: 80%;
+margin: 10px auto;
+padding: 0px;
+}
+
+#homesponsors img{
+padding: 0px;
+height: 70px;
+margin: 30px;
+}
+
+#homesponsors .col-12{
+width: 100%;
+text-align: center;
+}
+/*Sponsors Logo*/
+
+
+/*BORDER LINES*/
+.border-line{
+border-bottom: 5px solid black;
+margin: 50px 200px 50px 200px;
+}
+
+.border-line1{
+border-bottom: 5px solid black;
+width: 60%;
+margin: 50px auto;
+}
+/*BORDER LINES*/
+
+
+/*WELCOME SECTION*/
+#welcome h1{
+text-align: center;
+margin: 40px auto;
+text-decoration: underline;
+}
+
+#welcome-content{
+text-align: left;
+}
+
+#welcome-content p{
+padding: 10px auto;
+margin: 8px 400px 50px 400px;
+font-size: 18px;
+}
+/*WELCOME SECTION*/
+
+
+/*GALLERY SECTION*/
+#img-gallery{
+margin: 50px auto;
+width: 60%;
+}
+
+div.gallery img{
+width: 100%;
+margin: 30px auto;
+}
+
+.responsive{
+padding: 0 20px;
+float:left;
+width: 33.33%;
+}
+
+.clearfix:after{
+content: "";
+display: table;
+clear: both;
+}
+/*GALLERY SECTION*/
+
+
+/*REVIEW SECTION*/
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 60%;
+text-align: center;
+margin: 50px auto;
+border-radius: 5px;
+}
+
+#review-content img{
+height: 200px;
+width: 200px;
+margin: 0px;
+}
+
+#review-content{
+padding: 20px 20px 40px 20px;
+margin: 60px auto;
+}
+
+#reviews p{
+margin: 10px 20px;
+text-align: center;
+word-spacing: 5px;
+}
+/*REVIEW SECTION*/
+
+
+/*MISSION STATEMENT SECTION*/
+#mission-statement h1{
+text-align: center;
+margin: 40px auto;
+text-decoration: underline;
+}
+
+#mission-content{
+text-align: left;
+}
+
+#mission-content p{
+padding: 10px auto;
+margin: 8px 400px 50px 400px;
+font-size: 18px;
+width: 100%;
+}
+
+.mission-points{
+padding: 10px auto;
+margin: 8px 400px 50px 400px;  
+font-size: 18px;
+width: 100%;
+}
+/*MISSION STATEMENT SECTION*/
+
+
+/*VIDEO SECTION*/
+video{
+width: 60%;
+height: auto;
+}
+
+#video-player{
+text-align: center;
+margin: 5px auto;
+margin-bottom: 5px;
+}
+/*VIDEO SECTION*/
+
+
+/*VIDEO OF IMAGES*/
+video{
+width: 60%;
+height: auto;
+}
+
+#video-images{
+text-align: center;
+margin: 5px auto;
+margin-bottom: 50px;
+}
+/*VIDEO OF IMAGES*/
+
+
+/*TIME AND LOCATION SECTION*/
+#times h1{
+text-align: center;
+margin: 40px auto;
+text-decoration: underline;
+}
+
+#time-greeting h2{
+text-align: center;
+margin: 40px auto;
+margin-bottom: 60px;
+}
+
+#time-content{
+margin: 20px auto;
+padding: 20px;
+width: 60%;
+}
+
+#time-content1{
+text-align: left;
+width: 100%;
+line-height: 40px;
+}
+
+#time-content h4{
+font-weight: bold;
+line-height: 50px;
+}
+
+#map{
+align-content: left;
+margin-bottom: 120px;
+}
+
+#map-1{
+width: 100%;
+height: 100%;
+border: 5px solid black;
+}
+/*TIME AND LOCATION SECTION*/
+
+
+/* Norton Hall ad*/
+#norton-hallad{
+margin: 10px auto;
+text-align: center;
+width: 50%;
+padding: 20px;
+}
+
+#norton-hall-1{
+width: 40% auto;
+height: 80%;
+}
+
+#register-ad{
+margin: 200px auto;
+text-align: center;
+height: 0%;
+}
+/* Norton Hall ad*/
+/*HOMEPAGE*/
+
+
+
+
+/*LEGACYPAGE*/
+#Legacy-title h1{
+text-align: center;
+margin: 50px auto;
+margin-top: 200px;
+}
+
+#legacy-content{
+text-align: center;
+}
+
+#legacy-content p{
+padding: 10px auto;
+margin: 8px 400px 50px 400px;
+font-size: 18px;
+}
+
+#legacy-content-link p{
+padding: 10px auto;
+margin: 56px 400px 50px 400px;
+font-size: 18px;
+text-align: center;
+width: 100%;
+margin-bottom: 40px;
+}
+/*LEGACYPAGE*/
+
+
+
+
+/*CLUBSRULESPAGE*/
+#Teamrules-title h1{
+text-align: center;
+margin: 50px auto;
+margin-top: 200px;
+}
+
+#playerrules-title{
+text-align: center;
+margin: 80px auto;
+color: darkgoldenrod;
+}
+
+#parentrules-title{
+text-align: center;
+margin: 80px auto;
+color: darkgoldenrod;
+}
+
+#coachrules-title{
+text-align: center;
+margin: 80px auto;
+color: darkgoldenrod;
+}
+
+#playerrules{
+width: 60%;
+margin: 40px auto;
+}
+
+#playerrules p{
+font-size: 18px;
+}
+
+#parentrules{
+width: 60%;
+margin: 40px auto;
+}
+
+#parentrules p{
+font-size: 18px;
+}
+
+#coachrules{
+width: 60%;
+margin: 40px auto;
+}
+
+#coachrules p{
+font-size: 18px;
+}
+
+.btn-clubrules{
+display: block;
+width: 180px;
+height: 60px;
+position: relative;
+border: 4px solid black;
+margin: 50px auto;
+border-radius: 5px;
+background-color: white;
+}
+
+.btn-clubrules .content{
+display: block;
+position: absolute;
+bottom: 0px;
+width: 100%;
+height: 100%; 
+line-height: 50px;
+background-color: white;
+text-align: center;
+color: black;
+border-radius: 0px;
+font-size: 20px;
+font-weight: 900;
+cursor: pointer;
+}
+
+.btn-clubrules:hover .content{
+background-color:black;
+color: white; 
+}
+/*CLUBSRULESPAGE*/
+
+
+
+
+/*TEAMSPAGE*/
+#teams-title{
+text-align: center;
+margin: 40px auto;
+margin-top: 200px;
+}
+
+#age-title{
+text-align: center;
+margin: 80px auto;
+color: darkgoldenrod;
+}
+
+#teams-info-u11{
+width: 60%;
+margin: 40px auto;
+}
+
+#team-info{
+margin: 40px auto;
+}
+
+#team-pic{
+margin: 40px auto;
+}
+
+#team-pic img{
+width: 100%;
+margin: 0px auto;
+border: 3px solid black;
+}
+
+#breakline{
+border-bottom: 5px solid black;
+margin: 40px auto;
+}
+
+#teams-team-logo{
+width: 100%;
+margin: 10px auto;
+text-align: center;
+}
+
+#teams-team-logo img{
+height: 60%;
+margin: 50px auto;
+}
+/*TEAMSPAGE*/
+
+
+
+
+/*CONTACTPAGE*/
+#Contact-title h1{
+text-align: center;
+margin: 50px auto;
+margin-top: 200px;
+}
+
+#contactquote-title h5{
+text-align: center;
+margin: 20px auto;
+color: darkgoldenrod;
+}
+
+#contact-info h5{
+text-align: center;
+margin: 40px auto;
+color: black;
+font-weight: 600;
+}
+
+.contact-form{
+margin: 50px auto;
+width: 40%;
+padding: 20px;
+background: white;
+}
+
+input{
+width: 100%;
+margin: 30px 0px auto;
+padding: 10px;
+border: 5px solid black;
+}
+
+textarea{
+width: 100%;
+margin: 30px 0px auto;
+padding: 10px;
+border: 5px solid black;
+}
+
+.contact-form button{
+margin: 20px auto;
+padding: 100px auto;
+width: 100%;
+padding: 10px;
+border-radius: 0%;
+}
+
+/*CONTACT/REGISTER BUTTON STYLE*/
+button{
+width: 20%;
+margin: 30px 290px auto;
+padding: 10px;
+color: black;
+font-weight: 800;
+background-color: darkgoldenrod;
+border-radius: 50px;
+border: 5px solid black;
+}
+
+button:hover{
+background: black;
+color: darkgoldenrod;
+cursor: pointer;
+}
+/*CONTACT/REGISTER BUTTON STYLE*/
+
+#contact-team-logo{
+width: 100%;
+margin: 10px auto;
+text-align: center;
+margin-bottom: -50px;
+}
+
+#contact-team-logo img{
+height: 60%;
+margin: 70px auto;
+}
+
+
+/*CONTACT-SOCIAL-FEED*/
+#social-feeds{
+width: 100%;
+margin: 20px auto;
+}
+
+#facebook-feed{
+text-align: center;
+margin: 0px 80px 0px 80px auto;
+}
+.contact-border-line{
+border-bottom: 5px solid black;
+width: 80%;
+margin: 5px auto;
+}
+
+#social-feed-title h1{
+text-align: center;
+margin: 50px auto;
+font-weight: 700;
+color: darkgoldenrod;
+}
+/*CONTACT-SOCIAL-FEED*/
+/*CONTACTPAGE*/
+
+
+
+
+/*REGISTRATIONPAGE*/
+#registration-title1 h1{
+text-align: center;
+margin-top: 200px;
+}
+
+#registration-title h1{
+text-align: center;
+margin: 50px auto;
+}
+
+#registration-content{
+width: 60%;
+margin: 30px auto;
+}
+
+#registration-content p{
+font-size: 17px;
+}
+
+.form-process{
+width: 60%;
+margin:30px auto;
+text-align: center;
+padding: 10px;
+}
+
+.form-process .row{
+width: 70%;
+text-align: center;
+margin: 20px auto;
+}
+
+.fa-arrow-right{
+font-size: 10px;
+font-weight: 800;
+width: 0%;
+line-height: 24px;
+color: darkgoldenrod;
+}
+
+#registration-table{
+width: 50%;
+margin: 50px auto;
+}
+
+.table{
+width: 100%;
+margin: 20px auto;
+}
+
+.table th{
+background-color: black;
+color: darkgoldenrod;
+}
+
+#payment-title h4{
+color: darkgoldenrod;
+text-align: center;
+margin: 30px auto;
+margin-top: 40px;
+text-decoration:underline;
+}
+
+#payment-info{
+text-align: center;
+margin: 30px auto;
+font-size: 18px;
+width: 40%;
+}
+
+.register-form h3{
+text-align: center;
+font-weight: 700;
+margin: 20px auto;
+}
+
+#reg-info{
+text-align: center;
+}
+
+.register-form{
+margin: 40px auto;
+width: 40%;
+padding: 20px;
+background: white;
+border: 5px solid black;
+border-radius: 10px;
+}
+
+.register-form button{
+margin: 20px auto;
+padding: 100px auto;
+width: 100%;
+padding: 10px;
+border-radius: 0%;
+}
+
+#locations{
+border: 5px solid black;
+margin: 20px auto;
+width: 100%;
+padding: 10px;
+}
+
+#form-questions{
+color: black;
+text-align: left;
+margin-top: 30px;
+margin-bottom: -30px;
+padding: 5px;
+font-weight: 600;
+}
+/*REGISTRATIONPAGE*/
+
+
+
+
+
+
+
+/*MOBILE/TABLET DEVICES CSS*/ /*MOBILE/TABLET DEVICES CSS*/
+
+@media screen and (max-width:2560px){
+.nav-links{
+width: 60%;
+}
+
+.nav-links a{
+font-size: 14px;
+}
+	
+#welcome-content p{
+width: 60%;
+margin: 50px auto;
+}	
+
+#mission-content p{
+width: 58%;
+margin: 20px auto;
+}	
+	
+.mission-points{
+width: 58%;
+margin: 20px auto;
+}
+
+#team-info{
+font-size: 16px;
+}
+	
+#social-feeds{
+width: 13%;
+margin: 10px auto;
+}
+}
+
+
+
+
+@media screen and (max-width:1440px){
+/*HOMEPAGE*/
+.nav-links{
+right: 150px;
+width: 800px;
+}
+	
+
+
+#grid{
+width: 1100px;
+padding: 10px;
+}	
+	
+/*WELCOME SECTION*/
+#welcome h1{
+text-align: center;
+margin: 10px auto;
+text-decoration: underline;
+}
+	
+#welcome-content{
+text-align: left;
+}
+
+#welcome-content p{
+padding: 10px auto;
+margin: 40px 200px;
+}
+/*WELCOME SECTION*/
+	
+/*GALLERY SECTION*/
+#img-gallery{
+margin: 10px auto;
+width: 1100px;
+}
+/*GALLERY SECTION*/	
+	
+/*MISSION STATEMENT SECTION*/
+#mission-statement h1{
+margin: 10px auto;
+}
+	
+#mission-content p{
+margin: 40px 189px auto;
+width: 100%;
+}
+
+.mission-points{
+margin: 40px 200px;    
+font-size: 18px;
+}
+/*MISSION STATEMENT SECTION*/
+		
+/*VIDEO SECTION*/
+video{
+width: 75%;
+}
+/*VIDEO SECTION*/	
+	
+/*TIME AND LOCATION SECTION*/
+#time-greeting h2{
+text-align: center;
+margin: 20px auto;
+}	
+	
+#time-content{
+margin: 10px auto;
+width: 74%;
+}
+	
+#time-content1{
+width: 100%;
+line-height: 40px;
+}
+
+#time-content h4{
+margin-bottom: -15px;
+}
+	
+#time-content li{
+margin-bottom: 50px;
+}
+/*TIME AND LOCATION SECTION*/	
+/*HOMEPAGE*/	
+	
+	
+/*LEGACYPAGE*/	
+#Legacy-title h1{
+margin: 30px auto;
+}
+	
+#legacy-content p{
+margin: 20px 185px;
+text-align: center;
+}
+
+#legacy-content-link p{
+padding: 10px auto;
+margin: 40px auto;
+text-align: center;
+width: 75%;
+margin-bottom: 30px;
+}	
+/*LEGACYPAGE*/	
+	
+	
+/*CLUBSRULESPAGE*/
+#playerrules{
+width: 70%;
+margin: 40px auto;
+}
+	
+#parentrules{
+width: 70%;
+margin: 40px auto;
+}
+	
+#coachrules{
+width: 70%;
+margin: 40px auto;
+}	
+/*CLUBSRULESPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#teams-info-u11{
+width: 960px;
+margin: 40px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 0px auto;
+}
+	
+#teams-team-logo{
+width: 100%;
+margin: -10px 0px;
+}
+/*TEAMSPAGE*/	
+
+	
+/*CONTACTPAGE*/
+.contact-form button{
+width: 100%;
+}	
+
+.contact-form{
+margin: 20px auto;
+width: 60%;
+padding: 50px;
+background: white;
+}
+	
+#social-feeds{
+width: 25%;
+margin: 0px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}
+/*CONTACTPAGE*/	
+		
+	
+/*REGISTRATIONPAGE*/	
+#registration-title h1{
+margin-bottom: 10px;
+}	
+
+#registration-content{
+width: 1100px;
+margin: 20px auto;
+padding: 40px;
+}	
+	
+.form-process{
+width: 100%;
+margin:10px auto;
+text-align: center;
+padding: 10px;
+}
+	
+.form-process .row{
+width: 80%;
+text-align: center;
+margin: 20px auto;
+padding: 20px;
+}
+	
+#form-border .contact-form{
+border: 5px solid black;
+border-radius: 10px;
+margin-bottom: 90px;
+width: 1000px;
+}
+		
+#registration-table{
+width: 900px;
+margin: 50px auto;
+}
+	
+#payment-title h4{
+margin: 10px auto;
+margin-top: 10px;
+}
+	
+#payment-info{
+margin: 10px auto;
+font-size: 18px;
+width: 900px;
+padding: 20px;
+}
+
+.registration-form button{
+margin: 20px 0px auto;
+width: 100%
+}
+/*REGISTRATIONPAGE*/	
+}
+
+
+
+
+@media screen and (max-width:1366px){
+#social-feeds{
+width: 30%;
+margin: 0px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}
+	
+#Legacy-title h1{
+margin-top: 200px;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width:1280px){			
+/*HOMEPAGE*/
+#img-gallery{
+margin: 10px auto;
+width: 930px;
+}
+ 
+#img-gallery img{
+height: 250px;
+}
+
+#reviews{
+width: 1000px;
+}
+	
+#norton-hallad{
+margin: 20px auto;
+width: 800px;
+}		
+/*HOMEPAGE*/	
+		
+	
+/*CONTACTPAGE*/
+.contact-form button{
+width: 100%;
+margin: 20px 0px auto;
+}	
+	
+#social-feeds{
+width: 55%;
+margin: 30px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}
+/*CONTACTPAGE*/
+	
+	
+/*REGISTRATIONPAGE*/
+#registration-content{
+width: 950px;
+margin: 20px auto;
+padding: 40px;
+}	
+	
+.register-form{
+width: 700px;
+}	
+	
+.register-form button{
+width: 100%;
+margin: 20px 0px auto;
+}
+/*REGISTRATIONPAGE*/
+	
+/*LEGACYPAGE*/
+#Legacy-title h1{
+margin-top: 200px;
+}
+/*LEGACYPAGE*/
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+    
+.nav-links{
+position: fixed;
+z-index: 1;
+right: 0px;
+height: 100%;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+z-index: 1;
+}
+
+.nav-links a{
+color: white;
+font-size: 18px;
+font-weight: 700;
+}
+	
+#grid{
+width: 100%;
+padding: 10px;
+}
+	
+#homesponsors .row{
+width: 100%;
+}
+
+.border-line{
+width: 80%;
+margin: 20px auto;
+}
+
+#welcome-content p{
+width: 100%;
+margin: 20px 80px auto;
+}	
+
+#mission-content p{
+width: 100%;
+margin: 20px 80px auto;
+}
+	
+.mission-points{
+width: 100%;
+margin: 20px 100px auto;
+margin-bottom: 40px;
+}	
+	
+.mission-points li{
+width: 100%;
+margin: 20px 0px auto;
+}	
+	
+#time-content{
+width: 85%;
+}	
+
+.contact-form{
+width: 80%;
+}	
+	
+.contact-form button{
+width: 100%;
+margin: 20px 0px auto;
+}	
+	
+#social-feeds{
+width: 45%;
+margin: 30px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}	
+}
+
+
+
+
+@media screen and (max-width:950px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+    
+.nav-links{
+position: fixed;
+z-index: 1;
+right: 0px;
+height: 100%;
+top: 22vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 18px;
+font-weight: 700;
+}
+	
+#grid{
+width: 100%;
+padding: 10px;
+}
+	
+#homesponsors .row{
+width: 100%;
+}
+
+.border-line{
+width: 80%;
+margin: 20px auto;
+}
+
+#welcome-content p{
+width: 100%;
+margin: 20px 80px auto;
+}
+
+#img-gallery{
+width: 100%;
+}	
+	
+#img-gallery img{
+width: 100%;
+}	
+	
+#reviews{
+width: 100%;
+}
+	
+#mission-content p{
+width: 100%;
+margin: 20px 80px auto;
+}
+	
+.mission-points{
+width: 100%;
+margin: 40px 100px auto;
+margin-bottom: 40px;
+}	
+	
+.mission-points li{
+width: 100%;
+margin: 20px 0px auto;
+}
+	
+#time-content{
+width: 85%;
+}
+	
+.contact-form{
+width: 80%;
+}	
+	
+.contact-form button{
+width: 100%;
+margin: 20px 0px auto;
+}	
+	
+#social-feeds{
+width: 40%;
+margin: 0px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}	
+	
+#teams-info-u11{
+width: 80%;
+margin: 20px 90px auto;
+padding: 20px;
+}	
+
+#team-pic img{
+width: 100%;
+height: 300px;
+margin: 20px 40px auto;
+}
+}
+
+
+
+
+@media screen and (max-width:900px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+    
+.nav-links{
+position: fixed;
+z-index: 1;
+right: 0px;
+height: 101vh;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+z-index: 1;
+}
+
+.nav-links a{
+color: white;
+font-size: 18px;
+font-weight: 700;
+}
+	
+#grid{
+width: 100%;
+padding: 10px;
+}
+	
+#homesponsors .row{
+width: 100%;
+}
+
+.border-line{
+width: 80%;
+margin: 20px auto;
+}
+
+#welcome-content p{
+width: 100%;
+margin: 20px 80px auto;
+}
+
+#img-gallery{
+width: 100%;
+}	
+	
+#img-gallery img{
+width: 100%;
+}	
+	
+#reviews{
+width: 100%;
+}
+	
+#mission-content p{
+width: 100%;
+margin: 20px 80px auto;
+}
+	
+.mission-points{
+width: 100%;
+margin: 40px 100px auto;
+margin-bottom: 40px;
+}	
+	
+.mission-points li{
+width: 100%;
+margin: 20px 0px auto;
+}
+	
+#time-content{
+width: 85%;
+}
+	
+.contact-form{
+width: 80%;
+}	
+	
+.contact-form button{
+width: 100%;
+margin: 20px 0px auto;
+}	
+	
+#social-feeds{
+width: 40%;
+margin: 30px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}	
+	
+#registration-content{
+width: 100%;
+}
+}
+
+
+
+
+@media screen and (max-width:823px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/    	
+
+	
+/*HOMEPAGE*/
+#slogan{
+width: 75%;
+}	
+
+#logo-home img{
+width: 60%;
+height: 90%;
+margin-left: -20px;
+}
+	
+#grid{
+width: 70%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 140px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+	
+#welcome-content p{
+margin: 10px 90px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 50%;
+height: 40%;
+margin: 50px 160px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#mission-content p{
+margin: 30px 90px auto;
+}
+	
+.mission-points li{
+margin: 10px 10px; 
+}
+
+.mission-points{
+margin: 30px 100px auto;
+}
+	
+#video-player{
+margin: 40px auto;
+}
+	
+#time-content{
+text-align: center;
+width: 90%;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: 60px;
+}
+
+#time-content #map img{
+width: 300px auto;
+}	
+	
+#norton-hallad{
+width: 100%;
+}	
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 100px auto;
+height: 200px;
+}
+	
+#team-pic img{
+margin: 10px auto;
+height: 250px;
+}
+	
+#teams-team-logo{
+width: 50%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 100%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 80%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 50%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+width: 45%;
+margin: 0px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+margin: 10px auto;
+}
+
+#registration-content{
+width: 100%;
+}	
+	
+.register-form{
+width: 80%;
+margin-top: 10px;
+}	
+	
+#payment-info{
+width: 100%;
+}
+
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+	
+#registration-table{
+width: 100%;
+padding: 20px;
+margin-top: 0px;
+}
+/*REGISTRATIONPAGE*/
+	
+/*LEGACYPAGE*/
+#legacy-content p{
+width: 100%;
+margin: 20px 40px auto;
+}
+/*LEGACYPAGE*/
+}
+
+
+
+
+@media screen and (max-width:812px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/    	
+
+	
+/*HOMEPAGE*/
+#slogan{
+width: 75%;
+}	
+
+#logo-home img{
+width: 60%;
+margin-left: -20px;
+}
+	
+#grid{
+width: 50%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 140px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+	
+#welcome-content p{
+margin: 10px 90px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 50%;
+height: 40%;
+margin: 50px 160px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#mission-content p{
+margin: 30px 90px auto;
+}
+	
+.mission-points li{
+margin: 10px 10px; 
+}
+
+.mission-points{
+margin: 30px 100px auto;
+}
+	
+#video-player{
+margin: 40px auto;
+}
+	
+#time-content{
+text-align: center;
+width: 90%;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: 60px;
+}
+
+#time-content #map img{
+width: 300px auto;
+}	
+	
+#norton-hallad{
+width: 100%;
+}	
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 50px auto;
+height: 200px;
+}
+	
+#teams-team-logo{
+width: 60%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 80%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 80%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 50%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+width: 50%;
+margin: 0px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+margin: 10px auto;
+}
+
+#registration-content{
+width: 100%;
+}	
+	
+.register-form{
+width: 80%;
+margin-top: 10px;
+}	
+	
+#payment-info{
+width: 100%;
+}
+
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+	
+#registration-table{
+width: 100%;
+padding: 20px;
+margin-top: 0px;
+}
+/*REGISTRATIONPAGE*/
+	
+/*LEGACYPAGE*/
+#legacy-content p{
+width: 100%;
+margin: 20px 40px auto;
+}
+/*LEGACYPAGE*/
+}
+
+
+
+
+@media screen and (max-width:800px){
+body{
+overflow-x:hidden;
+width: 100%;
+}
+    
+.nav-links{
+position: fixed;
+z-index: 1;
+right: 0px;
+height: 90%;
+top: 10vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 18px;
+font-weight: 700;
+}
+	
+	
+/*HOMEPAGE*/
+#grid{
+width: 100%;
+padding: 10px;
+}
+	
+	
+/*Sponsors Logo*/
+#homesponsors .row{
+width: 100%;
+}
+/*Sponsors Logo*/
+	
+	
+/*WELCOME SECTION*/
+#welcome h1{
+text-align: center;
+margin: 10px auto;
+text-decoration: underline;
+}
+	
+#welcome-content{
+text-align: left;
+}
+
+#welcome-content p{
+padding: 10px auto;
+margin: 40px 40px auto;
+font-size: 18px;
+}
+/*WELCOME SECTION*/
+	
+	
+/*GALLERY SECTION*/
+#img-gallery{
+margin: 40px auto;
+width: 100%;
+}
+/*GALLERY SECTION*/
+	
+	
+/*REVIEW SECTION*/
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 50px auto;
+border-radius: 5px;
+}
+/*REVIEW SECTION*/	
+	
+	
+/*MISSION STATEMENT SECTION*/
+#mission-statement h1{
+margin: 10px auto;
+}
+	
+#mission-content p{
+margin: 40px;
+font-size: 18px;
+width: 100%;
+}
+
+.mission-points{
+margin: 10px 60px;    
+font-size: 18px;
+width: 100%;
+}
+/*MISSION STATEMENT SECTION*/
+	
+	
+/*VIDEO SECTION*/
+video{
+width: 100%;
+height: auto;
+margin: 20px 0px;
+}
+
+#video-player{
+text-align: center;
+margin: 5px auto;
+margin-bottom: 5px;
+}
+/*VIDEO SECTION*/	
+
+	
+/*TIME AND LOCATION SECTION*/
+#time-greeting h2{
+text-align: center;
+margin: 20px auto;
+}	
+	
+#time-content{
+margin: 20px auto;
+width: 90%;
+}
+	
+#time-content1{
+width: 100%;
+line-height: 40px;
+}
+
+#time-content h4{
+margin-bottom: -15px;
+}
+	
+#time-content li{
+margin-bottom: 50px;
+}
+/*TIME AND LOCATION SECTION*/	
+	
+	
+/* Norton Hall ad*/
+#norton-hallad{
+margin: 40px auto;
+width: 100%;
+padding: 20px;
+}	
+
+#register-ad{
+margin: 200px auto;
+padding: 50px;
+text-align: center;
+}
+/* Norton Hall ad*/	
+/*HOMEPAGE*/
+	
+	
+/*LEGACYPAGE*/	
+#Legacy-title h1{
+text-align: center;
+margin: 40px auto;
+margin-top: 200px;
+}
+	
+#legacy-content p{
+margin: 20px 40px;
+}
+
+#legacy-content-link p{
+padding: 10px auto;
+margin: 40px auto;
+font-size: 18px;
+text-align: center;
+width: 80%;
+}
+/*LEGACY-CONTENT*/	
+/*LEGACYPAGE*/	
+	
+	
+/*CLUBSRULESPAGE*/
+#playerrules{
+width: 85%;
+margin: 40px auto;
+}
+	
+#parentrules{
+width: 85%;
+margin: 40px auto;
+}
+	
+#coachrules{
+width: 85%;
+margin: 40px auto;
+}
+/*CLUBSRULESPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#teams-info-u11{
+width: 80%;
+margin: 40px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 100px auto;
+}
+	
+#teams-team-logo{
+width: 100%;
+}
+	
+#teams-team-logo img{
+width: 70%;
+height: 80%;
+}
+/*TEAMSPAGE*/	
+	
+	
+/*CONTACTPAGE*/
+.contact-form{
+margin: 50px auto;
+width: 100%;
+padding: 50px;
+background: white;
+}
+	
+#social-feeds{
+width: 55%;
+margin: 0px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}
+	
+.contact-form button{
+width: 100%;
+margin: 10px auto;
+}	
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/	
+#registration-title h1{
+margin-bottom: 10px;
+}	
+
+#registration-content{
+width: 100%;
+margin: 20px auto;
+padding: 40px;
+}	
+	
+.form-process{
+width: 100%;
+margin:10px auto;
+text-align: center;
+padding: 10px;
+}
+	
+.form-process .row{
+width: 100%;
+text-align: center;
+margin: 20px auto;
+padding: 20px;
+}
+
+.register-form button{
+width: 100%;
+margin: 10px auto;
+}
+		
+#registration-table{
+width: 90%;
+margin: 50px auto;
+}
+	
+#payment-title h4{
+margin: 10px auto;
+margin-top: 10px;
+}
+	
+#payment-info{
+margin: 10px auto;
+font-size: 18px;
+width: 100%;
+padding: 20px;
+}
+/*REGISTRATIONPAGE*/	
+}
+
+
+
+
+@media screen and (max-width:768px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+	
+.nav-links{
+position: fixed;
+z-index: 1;
+right: 0px;
+height: 100%;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+}
+	
+/*HOMEPAGE*/	
+#homesponsors{
+width: 50%;
+}
+	
+#homesponsors img{
+width: 250px;
+height: 200px;
+}
+
+#img-gallery img{
+height: 200px;
+}
+	
+#map img{
+height: 200px;	
+margin-top: 80px;
+}
+	
+#norton-hallad{
+width: 700px;
+}
+/*HOMEPAGE*/
+	
+	
+/*CONTACTPAGE*/
+.contact-form button{
+width: 100%;
+margin: 20px 0px auto;
+}
+	
+#social-feeds{
+width: 50%;
+margin: 0px auto;
+}
+
+#facebook-feed{
+width: 100%;
+}
+/*CONTACTPAGE*/
+	
+/*TEAMSPAGE*/
+#teams-info-u11{
+width: 80%;
+margin: 20px 50px auto;
+padding: 20px;
+}	
+
+#team-pic img{
+width: 100%;
+height: 250px;
+margin: 20px 40px auto;
+}
+/*TEAMSPAGE*/
+}
+
+
+
+
+@media screen and (max-width:736px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+	
+.burger{
+z-index: 1;
+}
+/*NAVBAR*/    	
+
+	
+/*HOMEPAGE*/
+#slogan{
+width: 80%;
+}	
+
+#logo-home img{
+width: 60%;
+margin-left: -20px;
+}
+	
+#grid{
+width: 70%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 100px;
+height: 80px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 50%;
+margin: 50px 140px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+
+#norton-hallad{
+width: 100%;
+}	
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+	
+#team-pic{
+margin: 100px auto;
+height: 200px;
+}
+	
+#team-pic img{
+margin: 50px auto;
+height: 200px;
+}
+
+	
+#teams-team-logo{
+width: 50%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 100%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 60%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+display:none;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 10px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+
+
+
+@media screen and (max-width:731px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/    	
+
+	
+/*HOMEPAGE*/
+#slogan{
+width: 100%;
+}	
+
+#logo-home img{
+width: 60%;
+height: 90%;
+margin-left: -20px;
+}
+	
+#grid{
+width: 70%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 80%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 140px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 50%;
+margin: 50px 140px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+
+#norton-hallad{
+width: 100%;
+}	
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic img{
+margin: 20px auto;
+height: 200px;
+}
+	
+#teams-team-logo{
+width: 60%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 90%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 60%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+display: none;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+@media screen and (max-width:667px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100vh;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/    	
+
+	
+/*HOMEPAGE*/
+#slogan{
+width: 90%;
+}	
+
+#logo-home img{
+width: 60%;
+margin-left: -20px;
+height: 90%;
+}
+	
+#grid{
+width: 80%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 40%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 120px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 50%;
+margin: 50px 140px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-greeting{
+width: 90%;
+}
+
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+
+#norton-hallad{
+width: 100%;
+}	
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 100px auto;
+height: 200px;
+}
+	
+#teams-team-logo{
+width: 60%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 100%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 60%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+width: 100%;
+}
+	
+#social-feeds .col-sm-6{
+margin: 20px 140px ;
+}
+	
+#facebook-feed{
+width: 100%;
+margin: 20px;
+margin-left: 150px;
+}
+	
+/*CONTACTPAGE*/	
+	
+/*CLUBSRULEPAGE*/
+#Teamrules-title{
+width: 90%;
+margin: 0px auto;
+}
+/*CLUBSRULEPAGE*/
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+
+@media screen and (max-width:640px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/    	
+
+	
+/*HOMEPAGE*/
+#slogan{
+width: 90%;
+}	
+
+#logo-home img{
+width: 60%;
+margin-left: -20px;
+}
+	
+#grid{
+width: 100%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 40%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 120px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 50%;
+margin: 50px 140px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+
+#norton-hallad{
+width: 100%;
+}	
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+width: 100%;
+}
+
+#team-pic img{
+width: 90%;
+height: 200px;
+}
+	
+#teams-team-logo{
+width: 60%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 90%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 60%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+display: none;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+@media screen and (max-width:568px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/    	
+
+	
+/*HOMEPAGE*/
+#slogan{
+width: 90%;
+}	
+
+#logo-home img{
+width: 60%;
+margin-left: -20px;
+}
+	
+#grid{
+width:80%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 40%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 120px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 50%;
+margin: 50px 140px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+	
+#time-greeting{
+width: 90%;
+}
+
+#norton-hallad{
+width: 100%;
+}	
+	
+#register-ad{
+margin-top: -100px;
+margin-bottom: 30px;
+}
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px 50px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 30px auto;
+height: 200px;
+}
+	
+#team-pic img{
+width: 80%;
+margin: 0px 50px auto;
+}
+	
+#teams-team-logo{
+width: 60%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 100%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 90%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 60%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+width: 100%;
+margin: 50px auto;
+}
+
+#facebook-feed{
+width: 80%;
+margin: 20px auto;
+}
+/*CONTACTPAGE*/	
+
+/*CLUBRULESPAGE*/
+#Teamrules-title{
+margin: 10px 20px auto;
+}
+/*CLUBRULESPAGE*/
+	
+/*REGISTRATIONPAGE*/
+.form-process{
+width: 80%;
+margin: 5px auto;
+}
+	
+.form-process .fa-arrow-right{
+margin: 5px;
+width: 100%;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+line-height: 40px;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+	
+.burger{
+z-index: 1;
+}
+/*NAVBAR*/    	
+
+	
+/*HOMEPAGE*/
+#logo-home img{
+width: 100%;
+margin-left: -20px;
+}
+	
+#slogan{
+width: 50%;
+}
+	
+#grid{
+width: 100%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 130px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 65%;
+margin: 50px 70px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+
+#norton-hallad{
+width: 100%;
+}	
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#team-pic img{
+width: 80%;
+height: 200px;
+}
+	
+#teams-team-logo{
+width: 100%;
+}
+
+#teams-team-logo img{
+width: 70%;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 70%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+display: none;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+width: 100%;
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+
+
+
+@media screen and (max-width:414px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+ 
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+ 	
+	
+/*HOMEPAGE*/
+#slogan{
+width: 100%;
+}
+	
+#logo-home img{
+width: 100%;
+margin-left: -20px;
+}
+	
+#grid{
+width: 100%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 130px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 80%;
+margin: 50px 35px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+
+#norton-hallad{
+width: 100%;
+margin: 0px auto;
+}	
+
+#register-ad{
+width: 100%;
+margin: 10px auto;
+}
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 20px auto;
+}
+	
+#teams-team-logo{
+width: 100%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 80%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 100%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+display: none;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+width: 100%;
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+@media screen and (max-width:412px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+ 
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+ 	
+	
+/*HOMEPAGE*/
+#slogan{
+width: 100%;
+}
+	
+#logo-home img{
+width: 100%;
+margin-left: -20px;
+}
+	
+#grid{
+width: 100%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 130px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 80%;
+margin: 50px 35px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+
+#norton-hallad{
+width: 100%;
+margin: 0px auto;
+}	
+
+#register-ad{
+width: 100%;
+margin: 10px auto;
+}
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 20px auto;
+}
+	
+#teams-team-logo{
+width: 100%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 80%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 100%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+display: none;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+width: 100%;
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+@media screen and (max-width:411px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/    
+	
+	
+/*HOMEPAGE*/
+#slogan{
+width: 100%;
+}
+
+#logo-home img{
+width: 100%;
+margin-left: -20px;
+}
+	
+#grid{
+width: 100%;
+}
+
+#grid .row .column{
+width: 80%;
+}
+	
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 130px;
+height: 100px;
+}
+	
+.border-line{
+width: 80%;
+margin: 30px auto;
+}
+
+.border-line1{
+width: 80%;
+margin: 0px auto;
+}
+
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+#img-gallery .responsive{
+width: 100%;
+}
+	
+#img-gallery img{
+width: 80%;
+margin: 50px 35px auto;
+}
+	
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#time-content{
+text-align: center;
+}
+	
+#time-content p{
+text-align: center;
+}
+	
+#time-content #map{
+text-align: center;
+margin-top: -60px;
+}
+
+#register-ad{
+margin: 0px auto;
+}
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 20px auto;
+}
+
+#team-pic img{
+margin: 0px auto;
+width: 100%;
+}	
+	
+#teams-team-logo{
+width: 100%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 80%;
+height: 70%;
+margin-left: -10px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 100%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+width: 100%;
+margin: 40px auto;
+padding: 40px;
+}
+	
+#facebook-feed{
+padding: 50px;
+margin-left: -38px;
+width: 50px;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+width: 100%;
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+
+
+
+@media screen and (max-width:375px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 1vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/ 
+	
+
+/*HOME-LOGO*/
+#logo-home{
+width: 100%; 
+margin: 10px auto;
+text-align: center;
+}
+
+#logo-home img{
+width: 100%;
+align-content: center;
+margin-left: -20px;
+}
+/*HOME-LOGO*/
+
+     
+#grid{
+width: 100%;
+padding: 20px;
+}
+
+#grid .content{
+background-color: white;
+padding: 10px;
+text-align: center;
+box-shadow: 0 10px 10px lightgrey;
+}
+    
+#homesponsors{
+width: 70%;
+margin: 20px auto;
+}
+	   
+.border-line{
+border-bottom: 5px solid black;
+margin: 30px auto;
+width: 80%;
+}
+
+.border-line1{
+width: 80%;
+margin: 30px auto;
+}
+   
+#welcome-content p{
+padding: 10px auto;
+margin: 10px 20px auto;
+text-align: center;
+}
+
+.responsive {
+padding: 0 6px;
+float:left;
+width: 100%;
+margin: 5px auto;
+}
+
+#img-gallery{
+margin: 50px auto;
+width: 100%;
+}
+
+	
+/*Sponsors Logo*/
+#homesponsors img{
+margin: 30px auto;
+}
+
+#homesponsors .row{
+margin: 10px auto;
+padding: 10px;
+}
+
+#homesponsors .col-12{
+width: 100%;
+text-align: center;
+}
+/*Sponsors Logo*/    
+    
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}
+    
+/*MISSION STATEMENT SECTION*/
+#mission-statement h1{
+text-align: center;
+margin: 20px auto;
+text-decoration: underline;
+}
+
+#mission-content p{
+padding: 10px auto;
+margin: 10px 20px auto;
+text-align: center;
+}
+
+.mission-points{
+padding: 0px auto;
+margin: 20px auto;    
+font-size: 12px;
+font-weight: 600;
+width: 70%;
+text-align: center;
+line-height: 50px;
+}
+
+video{
+width: 100%;
+height: auto;
+}
+/*MISSION STATEMENT SECTION*/ 
+  
+    
+/*TIME AND LOCATION SECTION*/
+#times h1{
+text-align: center;
+margin: 30px auto;
+text-decoration: underline;
+width: 100%;
+font-size: 38px;
+}
+
+#time-greeting h2{
+text-align: center;
+margin: 30px auto;
+margin-bottom: 60px;
+width: 95%;
+font-size: 26px;
+}
+
+#time-content{
+margin: 20px auto;
+padding: 20px;
+width: 100%;
+}
+
+#time-content1{
+text-align: center;
+width: 100%;
+line-height: 40px;
+font-size: 20px;
+}
+
+#time-content h4{
+font-weight: bold;
+line-height: 30px;
+width: 100%;
+font-size: 20px;
+text-align: center;
+}
+
+#time-content li{
+text-align: center;
+margin: 5px;
+font-size: 16px;
+}
+
+#map{
+align-content: center;
+margin-bottom: 80px;
+}
+
+#map-1{
+width: 100%;
+height: 100%;
+}
+/*TIME AND LOCATION SECTION*/   
+
+#norton-hallad{
+margin: 10px auto;
+text-align: center;
+width: 100%;
+padding: 20px;
+}
+
+#norton-hall-1{
+width: 100%;
+height: 100%;
+}
+	
+#register-ad{
+margin: 300px auto;
+}
+	
+/*CONTACTPAGE*/	
+#contactquote-title{
+padding: 10px auto;
+margin: 10px 20px auto;
+text-align: center;
+width: 90%;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#social-feeds{
+width: 100%;
+margin: 20px auto;
+padding: 40px auto;
+}
+	
+#facebook-feed{
+padding: 50px;
+margin-left: -56px;
+width: 50px;
+}
+/*CONTACTPAGE*/	
+	
+/*TEAMSPAGE*/
+#team-pic img{
+width: 100%;
+margin: 5px auto;
+}
+/*TEAMSPAGE*/
+	
+/*LEGACYPAGE*/
+#legacy-content p{
+padding: 10px auto;
+margin: 0px 20px auto;
+text-align: center;
+width: 100%;
+}
+	
+#legacy-content-link p{
+padding: 10px auto;
+margin: 30px 20px auto;
+text-align: center;
+width: 100%;
+margin-bottom: 20px;
+}
+/*LEGACYPAGE*/
+}
+
+
+
+@media screen and (max-width:360px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+
+/*NAVBAR*/   
+.nav-links{
+position: fixed;
+z-index: 1;
+height: 100%;
+right: 0px;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+font-size: 14px;
+}
+
+.nav-links a:hover{
+color: black;
+background-color: white;
+}
+/*NAVBAR*/    	
+		
+	
+/*HOMEPAGE*/	
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+	
+#homesponsors img{
+width: 50%;
+height: 100px;
+}
+	
+/*WELCOME SECTION*/	
+#welcome-content{
+margin: 20px auto;
+}
+/*WELCOME SECTION*/	
+	
+
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}		
+
+#register-ad{
+margin: 0px auto;
+}
+/*HOMEPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 20px auto;
+}
+	
+#teams-team-logo{
+width: 100%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 100%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 100%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+width: 100%;
+margin: 40px auto;
+padding: 40px;
+}
+	
+#facebook-feed{
+padding: 50px;
+margin-left: -65px;
+width: 50px;
+}
+/*CONTACTPAGE*/	
+	
+	
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+width: 100%;
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+/*REGISTRATIONPAGE*/
+	
+/*CLUBRULESPAGE*/
+#Teamrules-title{
+width: 100%;
+margin: 20px auto;
+}
+/*CLUBRULESPAGE*/
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px){
+body{
+overflow-x: hidden;
+width: 100%;
+}
+    
+.nav-links{
+position: fixed;
+z-index: 1;
+right: 0px;
+height: 100%;
+top: 0vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+transform: translateX(100%);
+transition: transform 0.5s ease-in;
+}
+
+.nav-links li{
+opacity: 100%;
+}
+ 
+.burger{
+display: block;
+}
+
+.nav-links a{
+color: white;
+}	
+
+
+/*HOMEPAGE*/
+#homesponsors{
+width: 100%;
+margin: 20px auto;
+}
+		
+#welcome-content p{
+padding: 0px auto;
+margin: 20px 20px auto;
+}
+
+#reviews{
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+width: 100%;
+text-align: center;
+margin: 30px auto;
+}
+	
+#reviews img{
+width: 100px;
+border-radius: 0px;
+height: 100px;
+}	
+	
+#register-ad{
+margin: 0px auto;
+}
+
+.footer-social-icons {
+width: 250px;
+}
+/*HOMEPAGE*/
+	
+	
+/*CLUBSRULESPAGE*/
+#Teamrules-title{
+width: 100%;
+margin: 20px auto;
+}
+
+#Teamrules-title h1{
+width: 300px;
+padding: 10px;
+font-size: 30px;
+}	
+	
+#playerrules-title{
+width: 95%;
+margin: 5px auto;
+}
+	
+#parentrules-title{
+width: 95%;
+margin: 5px auto;
+}
+	
+#coachrules-title{
+width: 90%;
+margin: 5px auto;
+}	
+/*CLUBSRULESPAGE*/
+	
+	
+/*TEAMSPAGE*/
+#age-title{
+margin: 20px auto;
+}
+	
+#teams-info-u11{
+width: 90%;
+margin: 20px auto;
+text-align: left;
+}
+
+#team-info{
+margin: 20px auto;
+}
+
+#team-pic{
+margin: 20px auto;
+width: 100%;
+}
+
+#team-pic img{
+width: 100%;
+height: 200px;
+}	
+	
+#teams-team-logo{
+width: 100%;
+margin: 0px auto;
+}
+
+#teams-team-logo img{
+width: 100%;
+height: 70%;
+margin-left: -20px;
+}
+/*TEAMSPAGE*/
+	
+	
+/*CONTACTPAGE*/
+#contactquote-title{
+width: 100%;
+margin: 10px auto;
+padding: 5px;
+}	
+	
+.contact-form{
+margin: 20px auto;
+width: 100%;
+padding: 30px;
+background: white;
+}
+	
+.contact-form button{
+margin: 20px 0px auto;
+width: 100%;
+}
+
+#contact-info{
+margin: 15px; 
+}	
+	
+#contact-team-logo img{
+width: 100%;
+height: 75%;
+margin-left: -20px;
+margin-top: 20px;
+}	
+	
+#social-feeds{
+display: none;
+}
+/*CONTACTPAGE*/	
+	
+		
+/*REGISTRATIONPAGE*/
+.form-process .fa-arrow-right{
+width: 100%;
+margin: 10px auto;
+}
+
+.register-form{
+width: 100%;
+margin-top: 10px;
+}	
+	
+.register-form button{
+width: 100%;
+margin:20px 0px auto;
+}
+/*REGISTRATIONPAGE*/
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+.nav-active{
+transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+from{
+opacity: 0;
+transform: translateX(50px);
+}
+	
+to{
+opacity: 1;
+transform: translateX(0px);
+}
+}
+
+.toggle .line1{
+transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+opacity: 0;
+}
+
+.toggle .line3{
+transform: rotate(45deg) translate(-5px,-6px);
+}
