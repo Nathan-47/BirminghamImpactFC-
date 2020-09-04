@@ -23,12 +23,11 @@ This project is.
 ## Technologies
 ### What technologies are used in this project?
 Project created with:
-* 
-* 
-* 
-* 
-*
-* 
+* Boostrap 4
+* HTML5
+* CSS3
+* JavaScript
+* PHP (third party form service)
 
 ### What skills have I showcased in this project?
 
