@@ -1,5 +1,5 @@
-# Ligue2API
-This project is a small Ligue 2 site that has API integrated into it to display old and new data to the user. 
+# Birmingham Impact Football Club Website
+This project is. 
 
 <br />
 
