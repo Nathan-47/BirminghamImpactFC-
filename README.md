@@ -1,4 +1,4 @@
-# Birmingham Impact Football Club Website
+# Birmingham Impact Football Club Website (HTML)
 This project is. 
 
 <br />
