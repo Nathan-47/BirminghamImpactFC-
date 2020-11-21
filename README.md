@@ -1,5 +1,5 @@
 # Birmingham Impact Football Club Website (HTML)
-This project is. 
+This project is created for a football team that I am currently part of and when viewing the old site, I took it upon myself to create a new site with a modern and slick design to cater towards users young and old.
 
 <br />
 
@@ -36,26 +36,16 @@ Project created with:
 
 ## Setup
 ### Use of local server or libraries in project?
-
+There was no use of any localhosts or any libraries being used within this project. 
 
 ### Instructions on how to access and open the doc for localhost?
-*	
-*	
-*	
-*	
-*
-
-### Instructions when on site
-*	
-*	
-
+No instructions for this project as there is project does not require to be opened via localhost server.
 
 <br />
 
 ## Status
 ### Is the project finished, does it need time to finish, what is the current progress?
-
-* 
+Project is finished but file paths do need amending and readME is currently being drafted.
 
 <br />
 
